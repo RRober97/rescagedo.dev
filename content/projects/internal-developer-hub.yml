@@ -1,6 +1,6 @@
-title: Internal Developer Hub (Nuxt Team)
-description: Designed and built key components for an internal documentation and tooling hub for Nuxt developers, focusing on improving developer experience and streamlining access to resources.
-image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to code/development
+title: Gest Truck (web)
+description: Plataforma web para la gestión integral de flotas y rutas, con seguimiento de proyectos logísticos, indicadores en tiempo real y automatización de informes operativos.
+image: https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1470&auto=format&fit=crop
 url: "#"
-tags: ["Developer Tools", "UX Design", "Nuxt", "Design System", "Internal Tools"]
-date: "2024"
+tags: ["Vue.js", "Directus", "Logística"]
+date: "2022"
