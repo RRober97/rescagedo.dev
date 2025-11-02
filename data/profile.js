@@ -1,22 +1,38 @@
 // TODO: completar con datos reales de mi LinkedIn: https://es.linkedin.com/in/roberto-escagedo-alonsotegui
 export default {
-  name: 'Roberto Escagedo',
-  role: 'Software Engineer / Full-Stack JS',
+  name: 'Nombre Apellido',
+  role: 'Administrador de sistemas y desarrollador de aplicaciones de gestión',
   location: 'España',
-  email: 'hola@rescagedo.dev', // TODO
+  email: 'tu-email@ejemplo.com',
   socials: [
-    { label: 'LinkedIn', url: 'https://es.linkedin.com/in/roberto-escagedo-alonsotegui' },
-    { label: 'GitHub', url: 'https://github.com/RRober97' }
+    { label: 'LinkedIn', url: '#' }
   ],
-  intro: `Desarrollador full-stack centrado en productos reales y automatización.
-Experto en Vue/Nuxt, Directus y microservicios Node.`, // TODO: completar con logros del LinkedIn
+  intro: `Profesional en administración de sistemas informáticos y desarrollo de aplicaciones de gestión.
+Experiencia en creación, mantenimiento y despliegue de soluciones empresariales, optimizando procesos mediante automatización, virtualización y desarrollo a medida.`,
   skills: [
-    'Vue 3 / Nuxt 3', 'Node.js', 'Directus', 'MySQL', 'Docker', 'Nginx', 'Redis',
-    'CI/CD', 'UX pragmática', 'Integraciones (Veri*factu, Stripe, etc.)'
+    'Python', 'JavaScript (Vue.js)', 'SQL', 'Docker', 'Docker Compose', 'Microservicios',
+    'Windows Server', 'Linux', 'AWS', 'Azure', 'MySQL', 'PostgreSQL'
   ],
   highlights: [
-    'Diseño y desarrollo de SaaS multi-tenant',
-    'Automatización de procesos y cumplimiento fiscal',
-    'DevOps en VPS (Docker + Plesk/Nginx)'
+    'Aplicaciones internas para gestión, seguimiento de proyectos, facturación e informes',
+    'Infraestructuras dockerizadas y automatización de despliegues',
+    'Integración de herramientas modernas como Vue.js y Directus'
+  ],
+  experience: [
+    'Automatización de procesos y despliegue de microservicios en entornos dockerizados',
+    'Gestión de infraestructuras de red y servicios en la nube (AWS, Azure)',
+    'Diseño e implementación de copias de seguridad automatizadas en buckets S3',
+    'Optimización de informes y seguimiento de datos para la toma de decisiones'
+  ],
+  education: [
+    'CFGS Administración de Sistemas Informáticos en Red (IFP Madrid)',
+    'CFGM Gestión Administrativa (Cantabria)',
+    'AWS Cloud Practitioner (06/23)',
+    'Azure Fundamentals AZ-900 (10/23)',
+    'Microsoft Office Excel Avanzado'
+  ],
+  languages: [
+    'Español (nativo)',
+    'Inglés (nivel intermedio – conversación fluida)'
   ]
 }
