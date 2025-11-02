@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom design tokens and micro-animations */
+:root{
+  --accent: theme('colors.indigo.500');
+}
+
+.site-card{ @apply bg-white dark:bg-slate-800 rounded-2xl shadow-md overflow-hidden }
+.soft-border{ border: 1px solid rgba(255,255,255,0.04) }
+
+/* micro-tilt (simple) */
+.tilt:hover{ transform: translateY(-6px) rotateX(2deg); transition: transform .28s cubic-bezier(.2,.9,.3,1) }
+
+@keyframes floaty { from { transform: translateY(0) } 50% { transform: translateY(-6px) } to { transform: translateY(0) } }
+.floaty { animation: floaty 4s ease-in-out infinite }
+
+/* accessible focus */
+:focus{ outline: 3px solid rgba(59,130,246,0.18); outline-offset: 3px }
