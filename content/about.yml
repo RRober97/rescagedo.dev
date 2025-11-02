@@ -1,27 +1,47 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: Sobre mí
+description: Conoce mi trayectoria como administrador de sistemas y desarrollador de soluciones de gestión a medida.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Soy un profesional en **administración de sistemas informáticos y desarrollo de aplicaciones de gestión**, con experiencia en la creación, mantenimiento y despliegue de soluciones empresariales.
+  Me apasiona aprender nuevas tecnologías y aplicarlas a proyectos reales, optimizando procesos mediante automatización, virtualización y desarrollo a medida.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  En los últimos años he trabajado en:
 
-  ### My Design Philosophy
+  - Desarrollo de aplicaciones internas para gestión, seguimiento de proyectos, facturación e informes.
+  - Infraestructura en contenedores (Docker & Docker Compose) para entornos empresariales.
+  - Integración de herramientas modernas como Vue.js y Directus para backoffice y aplicaciones web.
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  Mi enfoque combina **orden, responsabilidad y visión práctica**, siempre orientado a resultados y con la capacidad de adaptarme a diferentes áreas de TI y negocio.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  ### Experiencia destacada
 
-  ### What Drives Me
+  - Desarrollo y mantenimiento de aplicaciones de gestión empresarial con Python, Vue.js y Directus (headless CMS) en entornos dockerizados.
+  - Automatización de procesos y despliegue de microservicios en entornos dockerizados.
+  - Gestión de infraestructuras de red y servicios en la nube (AWS, Azure).
+  - Diseño e implementación de copias de seguridad automatizadas, asegurando disponibilidad y recuperación de datos en entornos productivos.
+  - Optimización de informes y seguimiento de datos para la toma de decisiones.
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  ### Formación y certificaciones
 
-  ### Beyond the Screen
+  - Ciclo formativo grado superior en Administración de Sistemas Informáticos en Red (ASIR) – IFP Madrid.
+  - Ciclo formativo grado medio en Gestión Administrativa – Cantabria.
+  - AWS Cloud Practitioner (06/23).
+  - Azure Fundamentals AZ-900 (10/23).
+  - Microsoft Office Excel Avanzado.
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  ### Competencias técnicas
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  - Lenguajes y frameworks: Python, JavaScript (Vue.js), SQL.
+  - Sistemas y cloud: Windows Server, Linux, AWS, Azure.
+  - Contenedores y despliegue: Docker, Docker Compose, microservicios.
+  - Bases de datos: MySQL, PostgreSQL.
+  - Otras: Ciberseguridad básica, administración de redes, ofimática avanzada.
+
+  ### Idiomas
+
+  - Español: nativo.
+  - Inglés: nivel intermedio (conversación fluida).
 images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  - src: https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1600&auto=format&fit=crop
+    alt: Centro de datos y servidores
+  - src: https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1600&auto=format&fit=crop
+    alt: Puesto de trabajo técnico

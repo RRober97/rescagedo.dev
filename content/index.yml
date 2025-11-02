@@ -1,120 +1,111 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Administrador de sistemas y desarrollador de soluciones empresariales"
+  description: "Portfolio profesional centrado en automatización, despliegues en contenedores y desarrollo de aplicaciones de gestión con Python, Vue.js y Directus."
+title: "Hola, soy un administrador de sistemas y desarrollador"
+description: "Diseño, despliego y mantengo soluciones de gestión que conectan infraestructura, datos y negocio."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-templates/portfolio
+    - label: "Contáctame"
+      to: "/#contact"
+      color: "primary"
+    - label: "Ver proyectos"
+      to: "/projects"
       color: "neutral"
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: Centro de datos iluminado
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: Consola con scripts de automatización
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: Diagrama de arquitectura en pizarra
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: Equipo colaborando en oficina
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: Servidores y cableado
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: Escritorio con laptop y monitor
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: Panel de monitoreo en pantalla
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: Repositorio de código abierto
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: Aplicación web en tablet
 about:
-  title: "About Me"
+  title: "Sobre mí"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    Profesional en administración de sistemas informáticos y desarrollo de aplicaciones de gestión. Especialista en automatización,
+    despliegues en contenedores y creación de herramientas internas con Python, Vue.js y Directus.
 experience:
-  title: Work Experience
+  title: Experiencia reciente
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Desarrollo de aplicaciones internas"
+      date: "2021 - Actualidad"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        name: "Soluciones empresariales"
+        logo: "i-lucide-app-window"
+        color: "#2563EB"
+    - position: "Infraestructura en contenedores"
+      date: "2019 - Actualidad"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        name: "Docker & Docker Compose"
+        logo: "i-simple-icons-docker"
+        color: "#0db7ed"
+    - position: "Integración de herramientas modernas"
+      date: "2018 - Actualidad"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: "Vue.js y Directus"
+        logo: "i-simple-icons-vuedotjs"
+        color: "#42b883"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Su trabajo en automatización y despliegue de microservicios ha reducido nuestros tiempos de entrega y mejorado la estabilidad de los entornos productivos."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+      name: 'Equipo de Operaciones'
+      description: 'Empresa de servicios tecnológicos'
+  - quote: "Gracias a las aplicaciones de gestión desarrolladas, contamos con informes y seguimiento de datos en tiempo real para la toma de decisiones."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
-    author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+      name: 'Dirección de Proyectos'
+      description: 'Consultora empresarial'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Últimos artículos"
+  description: "Reflexiones sobre automatización, contenedores y desarrollo a medida."
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Preguntas frecuentes
+  description: Respuestas sobre mis servicios de administración de sistemas y desarrollo de aplicaciones.
   categories:
-    - title: Services & Process
+    - title: Servicios
       questions:
-        - label: What services do you offer?
+        - label: ¿Qué tipo de proyectos desarrollas?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            Diseño y construyo aplicaciones de gestión internas, integraciones con APIs corporativas y automatizaciones de procesos
+            que conectan equipos de negocio con infraestructura tecnológica.
+        - label: ¿En qué tecnologías te especializas?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            Trabajo principalmente con Python, JavaScript (Vue.js), Directus y bases de datos SQL. Para infraestructura empleo Docker, Docker Compose,
+            automatización con scripts y despliegues en la nube (AWS, Azure).
+        - label: ¿Ofreces servicios de mantenimiento?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            Sí, realizo mantenimiento preventivo y evolutivo de servidores Linux, pipelines de despliegue, copias de seguridad y monitorización con herramientas
+            como Grafana y Prometheus.
+    - title: Colaboración
       questions:
-        - label: How much does a project typically cost?
+        - label: ¿Cómo inicias un nuevo proyecto?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Primero reviso los objetivos del negocio, mapeo los procesos actuales y defino un plan de implementación. Después creo un entorno de pruebas,
+            despliego la infraestructura necesaria y avanzo de forma iterativa con entregas periódicas.
+        - label: ¿Trabajas con equipos existentes?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Sí, puedo integrarme en equipos multidisciplinares, colaborar con departamentos de TI y coordinar despliegues con áreas de negocio.
+        - label: ¿Puedes apoyar formaciones internas?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Ofrezco sesiones de transferencia de conocimiento sobre automatización, uso de herramientas y buenas prácticas de administración de sistemas.
+    - title: Disponibilidad
       questions:
-        - label: What do you enjoy most about your work?
+        - label: ¿En qué idiomas trabajas?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            Español nativo e inglés intermedio para reuniones, documentación técnica y coordinación con equipos internacionales.
+        - label: ¿Cuál es tu disponibilidad?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            Colaboro en proyectos de medio y largo plazo, con posibilidad de soporte puntual para despliegues críticos o consultoría especializada.
+        - label: ¿Ofreces soporte remoto?
+          content: |
+            Sí, puedo operar de forma remota gestionando infraestructuras en la nube, automatizaciones y soporte a usuarios mediante herramientas colaborativas.
