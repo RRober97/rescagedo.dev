@@ -1,0 +1,111 @@
+seo:
+  title: "Administrador de sistemas y desarrollador de soluciones empresariales"
+  description: "Portfolio profesional centrado en automatización, despliegues en contenedores y desarrollo de aplicaciones de gestión con Python, Vue.js y Directus."
+title: "IT Systems & Applications | Desarrollo · Automatización · Docker · Directus · Cloud"
+description: "Diseño, despliego y mantengo soluciones de gestión que conectan infraestructura, datos y negocio."
+hero:
+  links:
+    - label: "Contáctame"
+      to: "/#contact"
+      color: "primary"
+    - label: "Ver proyectos"
+      to: "/projects"
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Centro de datos iluminado
+    - src: /hero/random-2.avif
+      alt: Consola con scripts de automatización
+    - src: /hero/random-3.avif
+      alt: Diagrama de arquitectura en pizarra
+    - src: /hero/random-4.avif
+      alt: Equipo colaborando en oficina
+    - src: /hero/random-5.avif
+      alt: Servidores y cableado
+    - src: /hero/random-6.avif
+      alt: Escritorio con laptop y monitor
+    - src: /hero/random-7.avif
+      alt: Panel de monitoreo en pantalla
+    - src: /hero/random-8.avif
+      alt: Repositorio de código abierto
+    - src: /hero/random-9.avif
+      alt: Aplicación web en tablet
+about:
+  title: "Sobre mí"
+  description: |
+    Profesional en administración de sistemas informáticos y desarrollo de aplicaciones de gestión. Especialista en automatización,
+    despliegues en contenedores y creación de herramientas internas con Python, Vue.js y Directus.
+experience:
+  title: Experiencia reciente
+  items:
+    - position: "Desarrollo de aplicaciones internas"
+      date: "2021 - Actualidad"
+      company:
+        name: "Soluciones empresariales"
+        logo: "i-lucide-app-window"
+        color: "#2563EB"
+    - position: "Infraestructura en contenedores"
+      date: "2019 - Actualidad"
+      company:
+        name: "Docker & Docker Compose"
+        logo: "i-simple-icons-docker"
+        color: "#0db7ed"
+    - position: "Integración de herramientas modernas"
+      date: "2018 - Actualidad"
+      company:
+        name: "Vue.js y Directus"
+        logo: "i-simple-icons-vuedotjs"
+        color: "#42b883"
+testimonials:
+  - quote: "Su trabajo en automatización y despliegue de microservicios ha reducido nuestros tiempos de entrega y mejorado la estabilidad de los entornos productivos."
+    author:
+      name: 'Equipo de Operaciones'
+      description: 'Empresa de servicios tecnológicos'
+  - quote: "Gracias a las aplicaciones de gestión desarrolladas, contamos con informes y seguimiento de datos en tiempo real para la toma de decisiones."
+    author:
+      name: 'Dirección de Proyectos'
+      description: 'Consultora empresarial'
+blog:
+  title: "Últimos artículos"
+  description: "Reflexiones sobre automatización, contenedores y desarrollo a medida."
+faq:
+  title: Preguntas frecuentes
+  description: Respuestas sobre mis servicios de administración de sistemas y desarrollo de aplicaciones.
+  categories:
+    - title: Servicios
+      questions:
+        - label: ¿Qué tipo de proyectos desarrollas?
+          content: |
+            Diseño y construyo aplicaciones de gestión internas, integraciones con APIs corporativas y automatizaciones de procesos
+            que conectan equipos de negocio con infraestructura tecnológica.
+        - label: ¿En qué tecnologías te especializas?
+          content: |
+            Trabajo principalmente con Python, JavaScript (Vue.js), Directus y bases de datos SQL. Para infraestructura empleo Docker, Docker Compose,
+            automatización con scripts y despliegues en la nube (AWS, Azure).
+        - label: ¿Ofreces servicios de mantenimiento?
+          content: |
+            Sí, realizo mantenimiento preventivo y evolutivo de servidores Linux, pipelines de despliegue, copias de seguridad y monitorización con herramientas
+            como Grafana y Prometheus.
+    - title: Colaboración
+      questions:
+        - label: ¿Cómo inicias un nuevo proyecto?
+          content: |
+            Primero reviso los objetivos del negocio, mapeo los procesos actuales y defino un plan de implementación. Después creo un entorno de pruebas,
+            despliego la infraestructura necesaria y avanzo de forma iterativa con entregas periódicas.
+        - label: ¿Trabajas con equipos existentes?
+          content: |
+            Sí, puedo integrarme en equipos multidisciplinares, colaborar con departamentos de TI y coordinar despliegues con áreas de negocio.
+        - label: ¿Puedes apoyar formaciones internas?
+          content: |
+            Ofrezco sesiones de transferencia de conocimiento sobre automatización, uso de herramientas y buenas prácticas de administración de sistemas.
+    - title: Disponibilidad
+      questions:
+        - label: ¿En qué idiomas trabajas?
+          content: |
+            Español nativo e inglés intermedio para reuniones, documentación técnica y coordinación con equipos internacionales.
+        - label: ¿Cuál es tu disponibilidad?
+          content: |
+            Colaboro en proyectos de medio y largo plazo, con posibilidad de soporte puntual para despliegues críticos o consultoría especializada.
+        - label: ¿Ofreces soporte remoto?
+          content: |
+            Sí, puedo operar de forma remota gestionando infraestructuras en la nube, automatizaciones y soporte a usuarios mediante herramientas colaborativas.

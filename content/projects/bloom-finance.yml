@@ -1,0 +1,6 @@
+title: Verifactu Gateway API
+description: Desarrollo de la pasarela API que conecta las aplicaciones internas con los servicios de la AEAT, gestionando autenticación, validaciones y envío seguro de datos fiscales.
+image: https://images.unsplash.com/photo-1580894897200-6ff3c8c3e6c3?q=80&w=1470&auto=format&fit=crop
+url: "#"
+tags: ["API", "Integraciones", "Python"]
+date: "2024"
