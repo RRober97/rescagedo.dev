@@ -11,9 +11,12 @@ defineProps<{
 <template>
   <UPageHero
     :ui="{
-      headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto',
-      links: 'mt-4 flex-col justify-center items-center'
+      root: 'app-hero',
+      container: 'app-hero__container',
+      headline: 'app-hero__headline',
+      title: 'app-hero__title',
+      description: 'app-hero__description',
+      links: 'app-hero__links'
     }"
   >
     <template #headline>
@@ -59,7 +62,7 @@ defineProps<{
           delay: 0.1
         }"
       >
-        {{ page.title }}
+        <span class="app-hero__title-gradient">{{ page.title }}</span>
       </Motion>
     </template>
 
@@ -101,15 +104,16 @@ defineProps<{
           delay: 0.5
         }"
       >
-        <div
-          v-if="page.hero.links"
-          class="flex items-center gap-2"
-        >
-          <UButton v-bind="page.hero.links[0]" />
+        <div v-if="page.hero.links">
+          <div class="app-hero__cta">
+            <UButton
+              v-bind="page.hero.links[0]"
+              class="app-hero__primary"
+            />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
-            class="gap-2"
+            class="app-hero__availability"
             :to="global.available ? global.meetingLink : ''"
             :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
           >
@@ -126,10 +130,11 @@ defineProps<{
               </span>
             </template>
           </UButton>
+          </div>
         </div>
       </Motion>
 
-      <div class="gap-x-4 inline-flex mt-4">
+      <div class="app-hero__social">
         <Motion
           v-for="(link, index) of footer?.links"
           :key="index"
@@ -151,6 +156,7 @@ defineProps<{
         >
           <UButton
             v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
+            class="app-hero__social-link"
           />
         </Motion>
       </div>
@@ -158,7 +164,7 @@ defineProps<{
 
     <UMarquee
       pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
+      class="app-hero__marquee"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -181,7 +187,7 @@ defineProps<{
         <NuxtImg
           width="234"
           height="234"
-          class="rounded-lg aspect-square object-cover"
+          class="app-hero__photo"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />
