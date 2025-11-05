@@ -1,5 +1,6 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 
+// === Helpers reutilizables ===
 const createBaseSchema = () => z.object({
   title: z.string(),
   description: z.string()
@@ -20,17 +21,10 @@ const createImageSchema = () => z.object({
   alt: z.string()
 })
 
-const createAuthorSchema = () => z.object({
-  name: z.string(),
-  description: z.string().optional(),
-  username: z.string().optional(),
-  twitter: z.string().optional(),
-  to: z.string().optional(),
-  avatar: createImageSchema().optional()
-})
-
+// === Configuración principal ===
 export default defineContentConfig({
   collections: {
+    // Página principal (index)
     index: defineCollection({
       type: 'page',
       source: 'index.yml',
@@ -53,19 +47,18 @@ export default defineContentConfig({
           }))
         }),
         faq: createBaseSchema().extend({
-          categories: z.array(
-            z.object({
-              title: z.string().nonempty(),
-              questions: z.array(
-                z.object({
-                  label: z.string().nonempty(),
-                  content: z.string().nonempty()
-                })
-              )
+          categories: z.array(z.object({
+            title: z.string().nonempty(),
+            questions: z.array(z.object({
+              label: z.string().nonempty(),
+              content: z.string().nonempty()
             }))
+          }))
         })
       })
     }),
+
+    // Proyectos
     projects: defineCollection({
       type: 'data',
       source: 'projects/*.yml',
@@ -78,45 +71,42 @@ export default defineContentConfig({
         date: z.date()
       })
     }),
-    blog: defineCollection({
-      type: 'page',
-      source: 'blog/*.md',
+
+    // Certificaciones
+    certifications: defineCollection({
+      type: 'data',
+      source: 'certifications/*.yml',
       schema: z.object({
-        minRead: z.number(),
+        title: z.string(),
+        issuer: z.string(),
         date: z.date(),
-        image: z.string().nonempty().editor({ input: 'media' }),
-        author: createAuthorSchema()
+        description: z.string().optional(),
+        url: z.string().optional(),
+        image: z.string().optional(),
+        credentialId: z.string().optional(),
+        skills: z.array(z.string()).optional()
       })
     }),
+
+    // Páginas internas
     pages: defineCollection({
       type: 'page',
       source: [
         { include: 'projects.yml' },
-        { include: 'blog.yml' }
+        { include: 'about.yml' },
+        { include: 'certifications.yml' } // hero/configuración de la página /certifications
       ],
       schema: z.object({
         links: z.array(createButtonSchema())
       })
     }),
-    speaking: defineCollection({
-      type: 'page',
-      source: 'speaking.yml',
-      schema: z.object({
-        links: z.array(createButtonSchema()),
-        events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
-      })
-    }),
+
+    // Página "Sobre mí"
     about: defineCollection({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
-        content: z.object({}),
+        content: z.object({}).optional(),
         images: z.array(createImageSchema())
       })
     })

@@ -1,0 +1,12 @@
+title: AWS Certified Cloud Practitioner
+issuer: Amazon Web Services (AWS)
+date: '2023-06-01'     
+credentialId: "153CF9FFB9F6A8"       
+url: https://www.credly.com/badges/978f9f26-3ea7-4a91-95ca-760ae2a7b0d0/linked_in_profile 
+image: /hero/aws-foundational.png                        
+skills:
+  - AWS Foundations
+  - Billing & Pricing
+  - Security & Compliance
+  - Cloud Economics
+  - Core Services (EC2, S3, RDS, IAM)

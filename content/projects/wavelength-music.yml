@@ -1,6 +1,6 @@
-title: Aplicación de gestión de proyectos (web)
-description: Suite web para coordinar tareas, facturación y reporting interno, conectada con Directus y paneles personalizados para cada área del negocio.
-image: https://images.unsplash.com/photo-1483478550801-781c3e887eb7?q=80&w=1470&auto=format&fit=crop
+title: Aplicación de gestión de proyectos hecha a medida (web) (Privado)
+description: Hice una suite web para coordinar solicitudes de clientes, tareas entre departamentos, facturación de proyectos y reporting interno, Vue3 conectado a Directus y mysql, con caché de redis y todo dockerizado en un docker-compose, se creó el proyecto desde la base, primeramente revisando los métodos de trabajo y optimizando los flujos personalizados para cada área del negocio.
+image: /hero/gestion-proyectos.png
 url: "#"
 tags: ["Gestión", "Directus", "Automatización"]
-date: "2021"
+date: "2024"
