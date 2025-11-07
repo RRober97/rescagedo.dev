@@ -2,7 +2,9 @@ seo:
   title: "Administrador de sistemas y desarrollador de soluciones empresariales"
   description: "Portfolio profesional centrado en automatización, despliegues en contenedores y desarrollo de aplicaciones de gestión con Python, Vue.js y Directus."
 title: "Roberto Escagedo Alonsotegui"
-description: "IT Systems & Applications | Desarrollo · Automatización · Seguridad · Docker · Directus · Cloud."
+description: "Desarrollador full stack de SaaS/ERP multiempresa con Vue 3/Nuxt, Node.js/Express, Directus y MySQL. 
+    Automatización y despliegue en Docker servido en servidores Linux con el proveedor Hetzner (VPS) gestionados con Plesk + Nginx, backups S3 con rclone y monitorización. 
+    Construyo herramientas internas seguras, escalables y enfocadas al rendimiento y a la seguridad."
 hero:
   links:
     - label: "Contáctame por email"
