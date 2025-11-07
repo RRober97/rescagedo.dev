@@ -9,11 +9,11 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [{ rel: 'icon', href: '/favicon.ico' }],
-  htmlAttrs: { lang: 'en' }
+  htmlAttrs: { lang: 'es' }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
+  titleTemplate: '%s - Portfolio Roberto Escagedo Dev Ops.',
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
   twitterCard: 'summary_large_image'

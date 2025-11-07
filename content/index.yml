@@ -13,23 +13,19 @@ hero:
       color: "neutral"
   images:
     - src: /hero/gestion-proyectos.png
-      alt: Centro de datos iluminado
+      alt: Software a medida de gestión de proyectos.
     - src: /hero/gestor-transp-informes.png
-      alt: Consola con scripts de automatización
+      alt: Pestaña reportes de aplicación para transportistas.
     - src: /hero/gestor-transp-informes2.png
-      alt: Diagrama de arquitectura en pizarra
+      alt: Pestaña reportes de aplicación para transportistas resto página.
     - src: /hero/gestor-transp-informes-light.png
-      alt: Equipo colaborando en oficina
+      alt: Alternativa clara de reporte informes de la aplicación para transportistas.
     - src: /hero/gestor-transp-informes-light2.png
-      alt: Servidores y cableado
+      alt: Alternativa clara de reporte informes de la aplicación para transportistas resto página.
     - src: /hero/makito-sync.png
-      alt: Escritorio con laptop y monitor
+      alt: Módulo prestashop de sincronización Makito Sync.
     - src: /hero/makito-sync-backoffice.png
-      alt: Panel de monitoreo en pantalla
-    - src: /hero/random-8.avif
-      alt: Repositorio de código abierto
-    - src: /hero/random-9.avif
-      alt: Aplicación web en tablet
+      alt: Panel de backoffice del módulo Makito Sync.
 about:
   title: "Sobre mí"
   description: |
