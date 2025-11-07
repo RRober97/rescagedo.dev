@@ -5,7 +5,8 @@ export default defineAppConfig({
       light: '/hero/roberto.png',
       alt: 'Mi foto de perfil'
     },
-    meetingLink: 'https://meet.google.com/landing',
+    meetingLink:
+      'https://calendar.google.com/calendar/u/0/r/eventedit?text=Reunión%20con%20Roberto&add=robertoea97%40gmail.com',
     email: 'robertoea97@gmail.com',
     available: true
   },
