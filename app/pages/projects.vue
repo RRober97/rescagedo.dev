@@ -38,17 +38,14 @@ useSeoMeta({
     >
       <template #links>
         <div
-          v-if="page.links"
+          v-if="page.links?.length"
           class="flex items-center gap-2"
         >
           <UButton
-            :label="page.links[0]?.label"
-            :to="global.meetingLink"
-            v-bind="page.links[0]"
-          />
-          <UButton
-            :to="`mailto:${global.email}`"
-            v-bind="page.links[1]"
+            v-for="(link, index) in page.links"
+            :key="index"
+            :to="link.to || `mailto:${global.email}`"
+            v-bind="link"
           />
         </div>
       </template>

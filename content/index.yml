@@ -5,8 +5,8 @@ title: "Roberto Escagedo Alonsotegui"
 description: "IT Systems & Applications | Desarrollo · Automatización · Seguridad · Docker · Directus · Cloud."
 hero:
   links:
-    - label: "Contáctame"
-      to: "/#contact"
+    - label: "Contáctame por email"
+      to: "mailto:robertoea97@gmail.com"
       color: "primary"
     - label: "Ver proyectos"
       to: "/projects"
