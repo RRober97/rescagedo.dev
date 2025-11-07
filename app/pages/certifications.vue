@@ -29,8 +29,13 @@ useSeoMeta({
       :ui="{ title: '!mx-0 text-left', description: '!mx-0 text-left', links: 'justify-start' }"
     >
       <template #links>
-        <div v-if="page.links" class="flex items-center gap-2">
-          <UButton :to="`mailto:${global.email}`" v-bind="page.links[0]" />
+        <div v-if="page.links?.length" class="flex items-center gap-2">
+          <UButton
+            v-for="(link, index) in page.links"
+            :key="index"
+            :to="link.to || `mailto:${global.email}`"
+            v-bind="link"
+          />
         </div>
       </template>
     </UPageHero>
