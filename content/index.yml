@@ -1,8 +1,8 @@
 seo:
   title: "Administrador de sistemas y desarrollador de soluciones empresariales"
   description: "Portfolio profesional centrado en automatización, despliegues en contenedores y desarrollo de aplicaciones de gestión con Python, Vue.js y Directus."
-title: "IT Systems & Applications | Desarrollo · Automatización · Docker · Directus · Cloud"
-description: "Diseño, despliego y mantengo soluciones de gestión que conectan infraestructura, datos y negocio."
+title: "Roberto Escagedo Alonsotegui"
+description: "IT Systems & Applications | Desarrollo · Automatización · Seguridad · Docker · Directus · Cloud."
 hero:
   links:
     - label: "Contáctame"
@@ -12,19 +12,19 @@ hero:
       to: "/projects"
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
+    - src: /hero/gestion-proyectos.png
       alt: Centro de datos iluminado
-    - src: /hero/random-2.avif
+    - src: /hero/gestor-transp-informes.png
       alt: Consola con scripts de automatización
-    - src: /hero/random-3.avif
+    - src: /hero/gestor-transp-informes2.png
       alt: Diagrama de arquitectura en pizarra
-    - src: /hero/random-4.avif
+    - src: /hero/gestor-transp-informes-light.png
       alt: Equipo colaborando en oficina
-    - src: /hero/random-5.avif
+    - src: /hero/gestor-transp-informes-light2.png
       alt: Servidores y cableado
-    - src: /hero/random-6.avif
+    - src: /hero/makito-sync.png
       alt: Escritorio con laptop y monitor
-    - src: /hero/random-7.avif
+    - src: /hero/makito-sync-backoffice.png
       alt: Panel de monitoreo en pantalla
     - src: /hero/random-8.avif
       alt: Repositorio de código abierto
@@ -38,24 +38,21 @@ about:
 experience:
   title: Experiencia reciente
   items:
-    - position: "Desarrollo de aplicaciones internas"
-      date: "2021 - Actualidad"
+    - position: "Desarrollo de soluciones empresariales"
+      date: "2024 - Actualidad"
       company:
-        name: "Soluciones empresariales"
         logo: "i-lucide-app-window"
         color: "#2563EB"
-    - position: "Infraestructura en contenedores"
-      date: "2019 - Actualidad"
+    - position: "Node.js, Python, MySQL, Directus..."
+      date: "2023 - Actualidad"
       company:
-        name: "Docker & Docker Compose"
-        logo: "i-simple-icons-docker"
-        color: "#0db7ed"
-    - position: "Integración de herramientas modernas"
-      date: "2018 - Actualidad"
-      company:
-        name: "Vue.js y Directus"
         logo: "i-simple-icons-vuedotjs"
         color: "#42b883"
+    - position: "Docker & Docker Compose"
+      date: "2022 - Actualidad"
+      company:
+        logo: "i-simple-icons-docker"
+        color: "#0db7ed"
 testimonials:
   - quote: "Su trabajo en automatización y despliegue de microservicios ha reducido nuestros tiempos de entrega y mejorado la estabilidad de los entornos productivos."
     author:
