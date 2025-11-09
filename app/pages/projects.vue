@@ -16,25 +16,6 @@ const { data: projects } = await useAsyncData('projects', () => {
 
 const { global } = useAppConfig()
 
-const expandedProject = ref<{ title: string; image: string } | null>(null)
-
-const openImage = (project: { title: string; image: string }) => {
-  expandedProject.value = {
-    title: project.title,
-    image: project.image
-  }
-}
-
-const closeImage = () => {
-  expandedProject.value = null
-}
-
-useEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && expandedProject.value) {
-    closeImage()
-  }
-})
-
 useSeoMeta({
   title: page.value?.seo?.title || page.value?.title,
   ogTitle: page.value?.seo?.title || page.value?.title,
@@ -73,31 +54,4 @@ useSeoMeta({
       <ProjectsGrid :projects="projects" />
     </UPageSection>
   </UPage>
-
-  <Teleport to="body">
-    <Transition>
-      <div
-        v-if="expandedProject"
-        class="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
-        @click.self="closeImage"
-      >
-        <div class="relative">
-          <button
-            type="button"
-            class="absolute top-2 right-2 text-white bg-black/60 hover:bg-black/80 rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-white"
-            @click="closeImage"
-            aria-label="Cerrar imagen ampliada"
-          >
-            <UIcon name="i-lucide-x" class="size-5" />
-          </button>
-          <img
-            v-if="expandedProject"
-            :src="expandedProject.image"
-            :alt="expandedProject.title"
-            class="object-contain max-h-[90vh] max-w-[90vw]"
-          >
-        </div>
-      </div>
-    </Transition>
-  </Teleport>
 </template>
