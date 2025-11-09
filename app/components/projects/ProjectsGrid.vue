@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { useEventListener } from '@vueuse/core'
+import { computed, nextTick, ref, watch } from 'vue'
+import { useEventListener, useScrollLock } from '@vueuse/core'
 
 type Project = {
   title: string
@@ -16,16 +16,37 @@ const props = defineProps<{
 
 const projectsList = computed(() => props.projects ?? [])
 const expandedProject = ref<Project | null>(null)
+const closeButtonRef = ref<HTMLButtonElement | null>(null)
+const previouslyFocusedElement = ref<HTMLElement | null>(null)
+const bodyElement = ref<HTMLElement | null>(null)
+const isBodyScrollLocked = useScrollLock(bodyElement, false)
 
-function openImage(project: Project) {
+if (import.meta.client) {
+  bodyElement.value = document.body
+}
+
+watch(expandedProject, (project) => {
+  isBodyScrollLocked.value = Boolean(project)
+})
+
+async function openImage(project: Project, event?: MouseEvent | KeyboardEvent) {
   if (!project.image) {
     return
   }
+  if (import.meta.client) {
+    previouslyFocusedElement.value = event?.currentTarget as HTMLElement | null
+  }
   expandedProject.value = project
+  await nextTick()
+  closeButtonRef.value?.focus()
 }
 
 function closeImage() {
   expandedProject.value = null
+  if (import.meta.client) {
+    previouslyFocusedElement.value?.focus()
+  }
+  previouslyFocusedElement.value = null
 }
 
 useEventListener('keydown', (event: KeyboardEvent) => {
@@ -83,7 +104,7 @@ useEventListener('keydown', (event: KeyboardEvent) => {
           type="button"
           class="w-full h-48 rounded-lg overflow-hidden focus:outline-none focus-visible:ring focus-visible:ring-primary cursor-zoom-in"
           :aria-label="`Ver imagen ampliada de ${project.title}`"
-          @click.stop="openImage(project)"
+          @click.stop="openImage(project, $event)"
         >
           <img
             :src="project.image"
@@ -106,6 +127,7 @@ useEventListener('keydown', (event: KeyboardEvent) => {
         >
           <div class="relative max-h-[90vh] max-w-[90vw]">
             <button
+              ref="closeButtonRef"
               type="button"
               class="absolute -top-3 -right-3 rounded-full bg-white/90 text-neutral-900 shadow-md p-2 hover:bg-white focus:outline-none focus-visible:ring focus-visible:ring-primary"
               aria-label="Cerrar imagen"
