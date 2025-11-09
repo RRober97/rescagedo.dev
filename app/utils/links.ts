@@ -7,13 +7,13 @@ export const navLinks: NavigationMenuItem[] = [{
 }, {
   label: 'Proyectos',
   icon: 'i-lucide-folder',
-  to: '/projects'
+  to: '/#projects'
 }, {
   label: 'Certificaciones',
   icon: 'i-lucide-folder',
-  to: '/certifications'
+  to: '/#certifications'
 }, {
   label: 'Acerca de mí',
   icon: 'i-lucide-user',
-  to: '/about'
+  to: '/#about'
 }]
