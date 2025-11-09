@@ -7,6 +7,7 @@ content: |
   En los últimos años he trabajado en:
 
   - Desarrollo de aplicaciones internas para gestión, seguimiento de proyectos, facturación e informes.
+  - **Administración y mantenimiento de servidores Linux**, incluyendo monitorización, corrección de errores y **comprobación de métricas de rendimiento**.
   - Infraestructura en contenedores (Docker & Docker Compose) para entornos empresariales.
   - Integración de herramientas modernas como Vue.js y Directus para backoffice y aplicaciones web.
 
@@ -15,7 +16,9 @@ content: |
   ### Experiencia destacada
 
   - Desarrollo y mantenimiento de aplicaciones de gestión empresarial con Python, Vue.js y Directus (headless CMS) en entornos dockerizados.
-  - Automatización de procesos y despliegue de microservicios en entornos dockerizados.
+  - Automatización de procesos y despliegue de microservicios en contenedores.
+  - **Supervisión, mantenimiento y optimización de servidores Linux** para garantizar la disponibilidad, seguridad y estabilidad de los sistemas.
+  - **Análisis de logs y métricas** para la detección temprana de incidencias y mejora del rendimiento.
   - Gestión de infraestructuras de red y servicios en la nube (AWS, Azure).
   - Diseño e implementación de copias de seguridad automatizadas, asegurando disponibilidad y recuperación de datos en entornos productivos.
   - Optimización de informes y seguimiento de datos para la toma de decisiones.
@@ -31,10 +34,10 @@ content: |
   ### Competencias técnicas
 
   - Lenguajes y frameworks: Python, JavaScript (Vue.js), SQL.
-  - Sistemas y cloud: Windows Server, Linux, AWS, Azure.
+  - Sistemas y cloud: Windows Server, **Linux (Debian/Ubuntu/CentOS)**, AWS, Azure.
   - Contenedores y despliegue: Docker, Docker Compose, microservicios.
   - Bases de datos: MySQL, PostgreSQL.
-  - Otras: Ciberseguridad básica, administración de redes, ofimática avanzada.
+  - Otras: **Mantenimiento preventivo de servidores**, ciberseguridad básica, administración de redes, monitorización de servicios (logs, métricas, uptime) y ofimática avanzada.
 
   ### Idiomas
 

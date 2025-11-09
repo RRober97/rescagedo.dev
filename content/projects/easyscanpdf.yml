@@ -1,6 +1,6 @@
 title: EasyScanPdf (Android e iOS) (Público)
 description: Aplicación móvil para digitalizar documentos desde smartphone, sincronización segura y posibilidad de envío de datos mediante la opción compartir.
-image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1470&auto=format&fit=crop
+image: hero/EasyScanPDF.png
 url: "https://github.com/RRober97/EasyScanPDF"
 tags: ["Mobile", "OCR", "Flutter"]
 date: "2025"
