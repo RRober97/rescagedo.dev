@@ -70,7 +70,6 @@ useEventListener('keydown', (event: KeyboardEvent) => {
       <UPageCard
         :title="project.title"
         :description="project.description"
-        :to="project.url || undefined"
         orientation="horizontal"
         variant="naked"
         :reverse="index % 2 === 1"
